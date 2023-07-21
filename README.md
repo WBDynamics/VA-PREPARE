@@ -1,5 +1,10 @@
 # VA-PREPARE
 Maternal Health Summit
+
+## Dev URL's
+Main Branch - https://ambitious-cliff-0cd489410.3.azurestaticapps.net/
+Develop Branch - https://green-ground-06c1c1c10.3.azurestaticapps.net/
+
 ## How to Install and Run the Project
 1. Clone this repo. Navigate to the directory where you'd like to put the VA-PREPARE directory and run:
     ```bash
