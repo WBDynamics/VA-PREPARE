@@ -1,0 +1,8 @@
+@use "uswds-core" as *;
+
+body { font-family: "Myriad-Pro", Helvetica, arial, sans-serif; }
+
+.site-wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
