@@ -1,0 +1,43 @@
+@use "uswds-core" as *;
+
+.summit-statement {
+
+    &__wrap {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+        position: relative;
+
+        @include at-media(mobile) {
+            background-image: url('../../assets/img/summit-statement-bg-mobile.jpg');
+        }    
+    
+        @include at-media(tablet-lg) { 
+            background-image: url('../../assets/img/summit-statement-bg-desktop.jpg');
+        }    
+    
+
+        &:after {
+            content: '';
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background: linear-gradient(90deg, rgba(113, 169, 88, 0.96) 0%, rgba(63, 143, 139, 0.96) 48.96%);
+            top: 0;
+            left: 0;
+            z-index: 1;
+            border-radius: 8px;
+        }
+    }
+
+    &__content {
+        position: relative;
+        z-index: 10;
+    }
+
+    &.dark {
+        color: #fff;
+    }
+
+}
