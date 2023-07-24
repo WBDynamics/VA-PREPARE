@@ -11,6 +11,7 @@ h1, .h1 {
 
 h2, .h2 {
     @include font-size(32px);
+
 }
 
 h3, .h3 {
@@ -22,11 +23,19 @@ h3, .h3 {
     color: var(--red-8);
 }
 
-hr { 
-    border: 0;
-    height: 8px;
-    width: 120px;
-    position: relative;
-    margin: 20px auto 30px auto;
-    background: #B3D05D;
+.title {
+    
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+        margin-bottom: 0;
+    }
+
+    hr {
+        border: 0;
+        height: 8px;
+        width: 120px;
+        position: relative;
+        margin: 24px auto 32px auto;
+        background: #B3D05D;    
+    }
+
 }
