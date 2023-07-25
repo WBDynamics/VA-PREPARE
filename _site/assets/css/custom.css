@@ -38,9 +38,19 @@
     margin-bottom: 5%;
 }
 
+#va-team-gallery a.gallery-tags {
+    text-decoration: none;
+}
+
 #gallery-modal .usa-modal {
-    min-width: 1000px;
     border-radius: 0% !important;
+}
+
+@media screen and (min-width: 1025px){
+    #gallery-modal .usa-modal {
+        min-width: 1000px;
+        border-radius: 0% !important;
+    }
 }
 
 #gallery-modal .usa-modal:focus {
