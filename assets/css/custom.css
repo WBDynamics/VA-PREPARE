@@ -1,7 +1,6 @@
 #va-team-gallery .gallery-divider {
     border: 3px solid #B3D05D !important;
-    min-width: 50px;
-    margin-bottom: 3%;
+    min-width: 150px;
     box-shadow: 0px 4px 7px 0px #e1e1e1;
 }
 
@@ -14,7 +13,6 @@
 }
 
 #va-team-gallery .gallery--tile-container div.usa-card__container {
-    padding: 6%;
     background: #fff;
     border: 1px solid #e1e1e1;
     box-shadow: 0px 4px 7px 0px #e1e1e1;
@@ -22,7 +20,6 @@
 
 #va-team-gallery .gallery--tile-container div.usa-card__container > img {
     border-radius: 4%;
-    margin-bottom: 7%;
 }
 
 #va-team-gallery .gallery--tile-container span {
@@ -35,7 +32,6 @@
     color: #000;
     font-weight: bold;
     font-size: .75em;
-    margin-bottom: 5%;
 }
 
 #va-team-gallery a.gallery-tags {
@@ -57,20 +53,8 @@
     outline: none;
 }
 
-#gallery-modal .usa-modal__content {
-    padding: 0 8%;
-}
-
 #gallery-modal .modal-img {
     border-radius: 3%;
-}
-
-#gallery-modal .usa-modal__main .grid-row > .grid-col-8 {
-    padding: 7% 3%
-}
-
-#gallery-modal .usa-modal__main .grid-row > .grid-col-8 > h4 {
-    margin: .5em auto;
 }
 
 #gallery-modal .usa-modal__main .grid-row > .grid-col-8 span {
@@ -79,8 +63,4 @@
 
 #gallery-modal .usa-modal__main .grid-col-12 > p.modal-description {
     font-size: 0.75em !important;
-}
-
-#gallery-modal .right-column p {
-    margin: 0;
 }
