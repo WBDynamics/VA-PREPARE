@@ -1,0 +1,75 @@
+#va-team-gallery {
+    .gallery-divider {
+      border: 3px solid #B3D05D !important;
+      min-width: 150px;
+      box-shadow: 0px 4px 7px 0px #e1e1e1;
+    }
+  
+    .gallery--tile-container > div {
+      cursor: pointer;
+    }
+  
+    h3.gallery-heading {
+      text-shadow: 1px 2px #e1e1e1;
+    }
+  
+    .gallery--tile-container {
+      div.usa-card__container > img {
+        border-radius: 4%;
+      }
+  
+      span {
+        color: #000;
+        font-weight: normal;
+        font-size: 0.75em;
+  
+        &.gallery-name {
+          color: #000;
+          font-weight: bold;
+          font-size: .75em;
+        }
+      }
+    }
+  
+    a.gallery-tags {
+      text-decoration: none;
+    }
+  }
+  
+  #gallery-modal {
+    .usa-modal {
+      border-radius: 0% !important;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    .modal-img {
+      border-radius: 3%;
+    }
+  
+    .usa-modal__main {
+      .grid-row > .grid-col-8 span {
+        font-size: 1.06rem;
+      }
+  
+      .grid-col-12 > p.modal-description {
+        font-size: 0.75em !important;
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    #gallery-modal .usa-modal {
+      min-width: 1000px;
+      border-radius: 0% !important;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .usa-modal__main {
+      padding: 0;
+    }
+  }
+  
