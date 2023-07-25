@@ -64,3 +64,9 @@
 #gallery-modal .usa-modal__main .grid-col-12 > p.modal-description {
     font-size: 0.75em !important;
 }
+
+@media screen and (max-width: 767px){
+    .usa-modal__main {
+        padding: 0;
+    }
+}
