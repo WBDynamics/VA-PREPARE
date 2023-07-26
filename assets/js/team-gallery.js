@@ -26,6 +26,14 @@ var galleryData = {
             "description": "Dr. John J. De Caro (he/him/his) is a Board Certified Urologist at the Augusta VA Medical Center. He graduated summa cum laude from Emory University with a B.S. in Physics and Biology and earned his medical degree from Stanford University, Palo Alto, CA.  He completed Urology residency training at Emory University and earned a Certificate in Telehealth and Digital Health Innovation from Thomas Jefferson University.  His research background includes stem cell research, endocrine disrupting chemicals and reproductive aging.  He is a current member of the Research Committee and Board for the non-profit Male Contraceptive Initiative dedicated to the development of reversible non-hormonal male contraception options. He is a current Spark Idea Investee under the VHA Innovators Network working on the Male Contraception Initiative addressing gender-based disparity in contraception counseling."
         },
         {
+            "img": "assets/img/4b_clancy.jpg",
+            "name": "Carolyn Clancy, M.D.",
+            "department": "Assistant Under Secretary for Health for Discovery, Education and Affiliate Networks",
+            "title": "Acting Deputy Assistant Under Secretary for Health",
+            "organization": "Veterans Health Administration ",
+            "description": "Dr. Carolyn Clancy serves as the Assistant Under Secretary for Health (AUSH) for Veterans Health Administration Office of Discovery, Education & Affiliate Networks (DEAN). DEAN fosters collaboration and knowledge transfer with facility-based educators, researchers, and clinicians within VA, and between VA and its affiliates. Prior to her current position, she served as the Acting Deputy Secretary of the Department of Veterans Affairs, the second-largest Cabinet department, with a $246 billion budget and over 424,000 employees serving in VA medical centers, clinics, benefits offices, and national cemeteries, overseeing the development and implementation of enterprise-wide policies, programs, activities, and special interests." + "<br /><br />" + "Dr. Clancy, a general internist and health services researcher, is a graduate of Boston College and the University of Massachusetts Medical School, holds an academic appointment at George Washington University School of Medicine and serves as Senior Associate Editor, Health Services Research. Dr. Clancy has contributed to eight academic textbooks and authored, co-authored and provided invited commentary in more than 225 scholarly journal articles. In 2018, she was selected as one of the Top 50 Physician Executives by Modern Healthcare, and in 2019, she was identified as one of the 50 Most Influential Clinical Executives by Modern Healthcare. Dr. Clancy was most recently awarded the 2023 Primary Care Collaborative" + "&#8217;" + "s (PCC) prestigious Barbara Stanfield Award."
+        },
+        {
             "img": "assets/img/4_elias.jpg?v=2",
             "name": "Maureen Elias, M.A.",
             "department": "Office of the Secretary",
@@ -64,14 +72,6 @@ var galleryData = {
             "title": "Caregiver Support Program Social Worker",
             "organization": "Orlando VA Healthcare System",
             "description": "Ms. Jasimine Joiner is a Licensed Clinical Social Worker who works in the Caregiver Support Program at the Orlando VA. She is a birth advocate, practicing birth doula, trained by Doulas of North America (D.O.N.A.), and is trained in perinatal mood disorders through Postpartum Support International (PSI). Her passion for birth work developed through each of her own unique birthing experiences. She is dedicated to offering equal access birth support to women across the Central Florida Area."
-        },
-        {
-            "img": "assets/img/9_kirsh.jpg?v=2",
-            "name": "Susan Kirsh, M.D., M.P.H.  ",
-            "department": "Education and Affiliate Networks (DEAN)",
-            "title": "Acting Deputy Assistant Under Secretary for Health",
-            "organization": "Veterans Health Administration Office of Discovery",
-            "description": ""
         },
         {
             "img": "assets/img/10_martin.jpg?v=2",
