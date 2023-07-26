@@ -55,7 +55,7 @@
 				class="usa-button usa-button--unstyled padding-105"
 				data-close-modal
 			>
-				<img src="assets/img/icon.png" />
+				<img data-src="assets/img/icon.png" class="lazy" />
 			</button>
 		</div>
 
@@ -64,7 +64,7 @@
 				<div class="grid-row">
 
 					<div class="desktop:grid-col-4 mobile:grid-col-12 mobile:padding-0">
-						<img class="modal-img" src="" alt="" />
+						<img class="modal-img" data-src="" alt="" />
 					</div>
 
 					<div class="desktop:grid-col-8 desktop:padding-y-7 desktop:padding-x-3 mobile:padding-y-0 mobile:padding-x-0 mobile:grid-col-12">
@@ -85,6 +85,9 @@
 </div> 
 
 <script src="assets/js/team-gallery.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+                
 
          <a href="#" class="back-to-top text-center padding-1" title="Return to the top of the page"><span class="show">TOP</span><img src="assets/img/icons/arrow-alt-circle-up-solid.svg" width="26" height="26" alt="Back to top icon"/></a>
 
