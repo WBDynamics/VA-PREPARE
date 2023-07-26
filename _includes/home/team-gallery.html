@@ -1,0 +1,66 @@
+<!-- team gallery section -->
+<section id="va-team-gallery" class="padding-3 margin-x-auto">
+    <div class="grid-container">
+		<div class="grid-row grid-gap flex-align-center">
+			<div class="grid-col-12 text-center">
+				<h1 class="gallery-heading">Meet the Speakers and Panelists</h1>
+			</div>
+
+			<hr class="gallery-divider margin-y-1 margin-bottom-8" />
+		</div>
+		
+		<div class="grid-row grid-gap flex-align-stretch">
+			<div class="grid-col-12">
+				<div class="grid-row grid-gap gallery--tile-container"></div>
+			</div>
+		</div>
+    </div>
+</section>
+
+<!-- modal window -->
+<div class="gallery--modal-window">
+	<div
+		class="usa-modal"
+		id="gallery-modal"
+		aria-labelledby="modal-1-heading"
+		aria-describedby="modal-1-description"
+	>
+		<div class="usa-modal__heading text-right">
+			<button
+				type="button"
+				class="usa-button usa-button--unstyled padding-105"
+				data-close-modal
+			>
+				<img data-src="assets/img/icon.png" class="lazy" />
+			</button>
+		</div>
+
+		<div class="usa-modal__content padding-x-8 mobile:padding-x-0">
+			<div class="usa-modal__main">
+				<div class="grid-row">
+
+					<div class="desktop:grid-col-4 mobile:grid-col-12 mobile:padding-0">
+						<img class="modal-img" data-src="" alt="" />
+					</div>
+
+					<div class="desktop:grid-col-8 desktop:padding-y-10 desktop:padding-x-3 mobile:padding-y-0 mobile:padding-x-0 mobile:grid-col-12 modal-contents">
+						<h4 class="modal-name margin-y-2 mobile:margin-y-0"></h4>
+						<p class="modal-department margin-y-0"></p>
+						<p class="modal-title margin-y-0"></p>
+						<p class="modal-organization margin-y-0"></p>
+					</div>
+				</div>
+				
+				<div class="grid-col-12 grid-row">
+					<p id="modal-1-description" class="modal-description"></p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div> 
+
+<script type="text/javascript" src="assets/js/team-gallery.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+                

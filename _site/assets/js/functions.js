@@ -53,3 +53,8 @@ $('.scroll').on('click',function(e) {
 		// window.location.hash = target;
 	});
 });
+
+
+$(function() {
+	$('.lazy').Lazy();
+});
