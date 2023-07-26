@@ -1,0 +1,43 @@
+@use "uswds-core" as *;
+
+#footer {
+    position: relative;
+
+    .footer-logo {
+        margin-bottom: 32px;
+
+        img {
+
+            @include at-media-max('tablet') {
+                height: 80px;
+            }
+    
+        }
+
+    }
+
+    .footer-border {
+        background-color: #61AD4D;
+        height: 14px;
+        justify-content: end;
+        display: flex;
+
+        .block {
+            position: relative;
+            width: 120px;
+            height: 14px;
+            transform: skew(-30deg, 0deg);
+
+            &-color-1 {
+                background-color: #ABD147;
+            }
+
+            &-color-2 {
+                background-color: #00918C;
+            }
+
+        }
+
+    }
+
+}
