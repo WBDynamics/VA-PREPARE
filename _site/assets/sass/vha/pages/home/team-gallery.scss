@@ -54,7 +54,7 @@
   }
 }
   
-@include at-media('desktop') {
+@media screen and (max-width: 1024px) {
   #gallery-modal .usa-modal {
     text-align: center;
   }
