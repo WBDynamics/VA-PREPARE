@@ -1,0 +1,85 @@
+@use "uswds-core" as *;
+
+.usa-table {
+    font-size: 1rem;
+    font-family: "Myriad-Pro", Helvetica, arial, sans-serif;
+
+    thead {
+        
+        th, td {
+        border-color: #B9B9B9;
+        background: none;
+        
+        }
+    }
+
+    th, td {
+        border-color: #B9B9B9;
+        background: none;
+        vertical-align: top;
+    }
+
+    .time {
+        width: 180px;
+    }
+    .emphasis {
+        background-color: #EAF4DD;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	/* Force table to not be like tables anymore */
+	#agenda-table table, 
+	#agenda-table thead, 
+	#agenda-table tbody, 
+	#agenda-table th, 
+	#agenda-table td, 
+	#agenda-table tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#agenda-table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#agenda-table tr { 
+        border-top: 3px solid #222;
+        border-left: 1px solid #B9B9B9;
+        border-right: 1px solid #B9B9B9;
+        margin-bottom: 32px;
+    }
+ 
+	#agenda-table td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #B9B9B9; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#agenda-table td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#agenda-table td:before { content: attr(data-label); }
+}
