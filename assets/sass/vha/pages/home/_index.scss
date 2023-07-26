@@ -60,5 +60,20 @@
     border-radius: 0% !important;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  #gallery-modal .usa-modal {
+    text-align: center;
+  }
+
+  #gallery-modal .modal-contents {
+    text-align: left;
+  }
+
+  #gallery-modal .modal-description {
+    text-align: left;
+  }
+}
+  
   
   
