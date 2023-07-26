@@ -1,1 +1,86 @@
+<<<<<<< HEAD
+#va-team-gallery {
+  .gallery-divider {
+    border: 0;
+    height: 8px;
+    width: 120px;
+    position: relative;
+    background: #b3d05d;
+  }
+
+  .gallery--tile-container > div {
+    cursor: pointer;
+  }
+
+  .gallery--tile-container {
+    div.usa-card__container > img {
+      border-radius: 4%;
+    }
+
+    span {
+      color: #000;
+      font-weight: normal;
+      font-size: 1rem;
+      display: block;
+
+      &.gallery-name {
+        color: #000;
+        font-weight: bold;
+      }
+
+      &.gallery-org {
+        color: #3D4551;
+      }
+    }
+  }
+
+  a.gallery-tags {
+    text-decoration: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+#gallery-modal {
+  .usa-modal {
+    font-family: "Myriad-Pro",helvetica,arial,sans-serif !important;
+    border-radius: 0% !important;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .modal-img {
+    border-radius: 3%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #gallery-modal .usa-modal {
+    min-width: 1000px;
+    border-radius: 0% !important;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #gallery-modal .usa-modal {
+    text-align: center;
+  }
+
+  #gallery-modal .modal-contents {
+    text-align: left;
+  }
+
+  #gallery-modal .modal-description {
+    text-align: left;
+  }
+}
+  
+  
+  
+=======
 @forward "summit-statement";
+>>>>>>> remotes/origin/develop
