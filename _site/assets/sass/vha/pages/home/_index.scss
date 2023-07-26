@@ -1,60 +1,60 @@
 #va-team-gallery {
-    .gallery-divider {
-      border: 3px solid #B3D05D !important;
-      min-width: 150px;
-    }
-  
-    .gallery--tile-container > div {
-      cursor: pointer;
-    }
-  
-    .gallery--tile-container {
-      div.usa-card__container > img {
-        border-radius: 4%;
-      }
-  
-      span {
-        color: #000;
-        font-weight: normal;
-        font-size: 1rem;
-        display: block;
-  
-        &.gallery-name {
-          color: #000;
-          font-weight: bold;
-        }
-      }
-    }
-  
-    a.gallery-tags {
-      text-decoration: none;
+  .gallery-divider {
+    border: 3px solid #B3D05D !important;
+    min-width: 150px;
+  }
 
-      &:focus {
-        outline: none;
+  .gallery--tile-container > div {
+    cursor: pointer;
+  }
+
+  .gallery--tile-container {
+    div.usa-card__container > img {
+      border-radius: 4%;
+    }
+
+    span {
+      color: #000;
+      font-weight: normal;
+      font-size: 1rem;
+      display: block;
+
+      &.gallery-name {
+        color: #000;
+        font-weight: bold;
       }
     }
   }
-  
-  #gallery-modal {
-    .usa-modal {
-      font-family: "Myriad-Pro",helvetica,arial,sans-serif !important;
-      border-radius: 0% !important;
-  
-      &:focus {
-        outline: none;
-      }
-    }
-  
-    .modal-img {
-      border-radius: 3%;
+
+  a.gallery-tags {
+    text-decoration: none;
+
+    &:focus {
+      outline: none;
     }
   }
-  
-  @media screen and (min-width: 1025px) {
-    #gallery-modal .usa-modal {
-      min-width: 1000px;
-      border-radius: 0% !important;
+}
+
+#gallery-modal {
+  .usa-modal {
+    font-family: "Myriad-Pro",helvetica,arial,sans-serif !important;
+    border-radius: 0% !important;
+
+    &:focus {
+      outline: none;
     }
   }
+
+  .modal-img {
+    border-radius: 3%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #gallery-modal .usa-modal {
+    min-width: 1000px;
+    border-radius: 0% !important;
+  }
+}
   
   
