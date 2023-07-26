@@ -1,7 +1,10 @@
 #va-team-gallery {
   .gallery-divider {
-    border: 3px solid #B3D05D !important;
-    min-width: 150px;
+    border: 0;
+    height: 8px;
+    width: 120px;
+    position: relative;
+    background: #b3d05d;
   }
 
   .gallery--tile-container > div {
