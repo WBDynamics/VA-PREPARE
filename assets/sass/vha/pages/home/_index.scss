@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #va-team-gallery {
   .gallery--tile-container > div {
     cursor: pointer;
@@ -57,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 1025px) {
+@include at-media('desktop') {
   #gallery-modal .usa-modal {
     text-align: center;
   }
@@ -73,6 +72,5 @@
   
   
   
-=======
 @forward "summit-statement";
->>>>>>> remotes/origin/develop
+
