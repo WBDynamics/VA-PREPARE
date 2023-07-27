@@ -188,5 +188,5 @@ $("a.gallery-tags").click(function () {
 });
 
 // remove empty elements
-$(".publication-list__item-container span:empty").remove();
-$(".publication-list__item-container p:empty").remove();
+$(".usa-card__body span:empty").remove();
+$(".usa-card__body p:empty").remove();
